@@ -17,6 +17,7 @@ public class ViewSimple extends View<Controller> implements ModelListener{
 
 		this.setTitle("View Simple");
 		this.setSize(300, 200);
+		this.setLocation(300, 300);
 
 		// Create a label
 		label = new JLabel();

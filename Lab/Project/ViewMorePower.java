@@ -26,6 +26,7 @@ public class ViewMorePower extends View<ControllerMorePower>{
 		
 		this.setTitle("View More Power");
 		this.setSize(300, 300);
+		this.setLocation(800, 0);
 		this.setLayout(gl);
 		this.add(t1);
 		this.add(t2);

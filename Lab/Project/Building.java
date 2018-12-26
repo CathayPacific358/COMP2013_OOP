@@ -4,7 +4,9 @@
  *
  */
 
-public abstract class Building implements Consumer {
+import java.io.Serializable;
+
+public abstract class Building implements Consumer, Serializable {
 
 	private String name;
 	private int power;

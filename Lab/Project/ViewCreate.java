@@ -31,7 +31,8 @@ public class ViewCreate extends View<ControllerCreate> {
 		GridLayout gl = new GridLayout(4, 1);
 		
 		this.setTitle("View Create");
-		this.setSize(300, 300);
+		this.setSize(400, 300);
+		this.setLocation(400, 0);
 		this.setLayout(gl);
 		this.add(t1);
 		this.add(t2);

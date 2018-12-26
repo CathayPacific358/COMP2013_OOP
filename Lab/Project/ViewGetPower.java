@@ -27,6 +27,7 @@ public class ViewGetPower extends View<ControllerGetPower> {
 
 		this.setTitle("View Power");
 		this.setSize(300, 200);
+		this.setLocation(0, 300);
 		this.setLayout(gl);
 		this.add(t);
 		this.add(btn_tellPower);

@@ -137,6 +137,7 @@ public class CLI {
 			// Action 6 to quit the programme
 			case 6:{
 				System.out.println("Goodbye!");// Au revoir
+				UE.saveData();// Save data before terminating the programme
 				System.exit(0);// Exit the programme
 			}
 			break;
